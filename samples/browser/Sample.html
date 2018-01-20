@@ -31,20 +31,9 @@
     </nav> -->
 
     <div id="content" style="display:none">
-<<<<<<< HEAD
             <h1>SPITCH PERFECT</h1>
             <h2 class="lead">Spitch Perfect helps you excel your next crucial presentation.</h2>
 
-=======
-        <table width="100%">
-            <tr>
-                <td></td>
-                <td>
-                    <h1 style="font-weight:500;">Spitch Perfect</h1>
-                    <h2 style="font-weight:500;">Spitch Perfect helps you excel your next big presentation.</h2>
-                </td>
-            </tr>
->>>>>>> 332a18e... Initial commit, implement speech-to-text transcript
        <!--      <tr>
                 <td align="right"><a href="https://www.microsoft.com/cognitive-services/en-us/sign-up" target="_blank">Subscription</a>:</td>
                 <td><input id="key" type="text" size="40" value="YOUR_BING_SPEECH_API_KEY"></td>
@@ -67,11 +56,7 @@
                     </select>
                 </td>
             </tr> -->
-<<<<<<< HEAD
             <tr>
-=======
-      <!--       <tr>
->>>>>>> 332a18e... Initial commit, implement speech-to-text transcript
                 <td align="right">Recognition Mode:</td>
                 <td align="left">
                     <select id="recognitionMode">
@@ -79,11 +64,7 @@
                         <option value="Dictation">Unnatural</option>
                     </select>
                 </td>
-<<<<<<< HEAD
             </tr>
-=======
-            </tr> -->
->>>>>>> 332a18e... Initial commit, implement speech-to-text transcript
     <!--         <tr>
                 <td align="right">Format:</td>
                 <td align="left">
@@ -93,7 +74,6 @@
                     </select>
                 </td>
             </tr> -->
-<<<<<<< HEAD
             <td align="right">Select speech source:</td>
             <td align="left">
                 <select  id="inputSource">
@@ -102,17 +82,6 @@
                 </select>
             </td>
 
-=======
-            <tr>
-                <td align="right">Input:</td>
-                <td align="left">
-                    <select id="inputSource">
-                        <option value="Mic" selected="selected">Microphone</option>
-                        <option value="File">Audio File</option>
-                    </select>
-                </td>
-            </tr>
->>>>>>> 332a18e... Initial commit, implement speech-to-text transcript
             <tr>
                 <td></td>
                 <td>
@@ -172,7 +141,6 @@
         }
         
         // Setup the recognizer
-<<<<<<< HEAD
         function RecognizerSetup(SDK, recognitionMode, subscriptionKey) {
 
             switch (recognitionMode) {
@@ -189,23 +157,6 @@
                     recognitionMode = SDK.RecognitionMode.Dictation;
 
             }
-=======
-        function RecognizerSetup(SDK, subscriptionKey) {
-            
-            // switch (recognitionMode) {
-            //     case "Interactive" :
-            //         recognitionMode = SDK.RecognitionMode.Interactive;    
-            //         break;
-            //     case "Conversation" :
-            //         recognitionMode = SDK.RecognitionMode.Conversation;    
-            //         break;
-            //     case "Dictation" :
-            //         recognitionMode = SDK.RecognitionMode.Dictation;    
-            //         break;
-            //     default:
-            //         recognitionMode = SDK.RecognitionMode.Interactive;
-            // }
->>>>>>> 332a18e... Initial commit, implement speech-to-text transcript
 
             var recognizerConfig = new SDK.RecognizerConfig(
                 new SDK.SpeechConfig(
